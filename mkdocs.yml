@@ -1,5 +1,9 @@
 site_name: My Docs
 
-extra_dirs:
-  - admin
+plugins:
+  - search
+  - include-admin: {}
+
+plugins_dir: plugins
+
 
