@@ -1,4 +1,5 @@
 [build]
+  command = "pip install -r requirements.txt && mkdocs build"
   publish = "site"
   command = "mkdocs build"
   runtime = "python-3.9"
