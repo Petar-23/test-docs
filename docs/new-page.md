@@ -9,9 +9,7 @@ T﻿his is a small list
 * i﻿tem 2 
 * i﻿tem 3
 
-## This is a code bloc
-
-``
+## This is a code block
 
 ```yaml
 backend:
@@ -31,3 +29,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
 ```
+
+## T﻿his is an Image
+
+![](/assets/glassmorph-loading.gif "Glassmorphism Loader")
