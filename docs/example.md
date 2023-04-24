@@ -1,7 +1,6 @@
 ---
-title: "Example Page"
+title: Example Page
 ---
-
 # Example Page
 
-Your page content goes here...
+Hello World
