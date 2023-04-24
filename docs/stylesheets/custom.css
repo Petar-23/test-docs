@@ -56,6 +56,7 @@ body {
   --md-accent-bg-color--light:         hsla(0, 0%, 100%, 0.7);
 }
 
-h1, h2 {
-  font-weight: bold;
+h1, h2, h3, h4, h5 {
+  font-family: 'Inter';
+  font-weight: 700;
 }
