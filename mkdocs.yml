@@ -24,8 +24,8 @@ extra_javascript:
 
 nav:
   - Introduction:
-      - 'Overview': introduction/overview.md
-      - 'Whitepaper': /introduction/whitepaper.md
+      - 'Overview': intro/overview.md
+      - 'Whitepaper': intro/whitepaper.md
   - Getting Started:
       - 'Quick Start Guide': getting_started/quick_start_guide.md
       - 'NFT Market Guide': getting_started/nft_market_guide.md

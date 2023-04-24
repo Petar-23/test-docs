@@ -8,7 +8,7 @@ public_folder: "/assets"
 collections:
   - name: "introduction"
     label: "Introduction"
-    folder: "docs/introduction"
+    folder: "docs/intro"
     create: true
     slug: "{{slug}}"
     fields:
