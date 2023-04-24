@@ -7,6 +7,21 @@ theme:
   features:
     - navigation.footer
 
+extra_templates:
+  - name: custom_template
+    src: templates/custom_template.html
+
+# Configure the extra_template_data to use the custom template
+extra_template_data:
+  custom_template: |
+    {% extends "base.html" %}
+    {% block content %}
+        {{ super() }}
+        {% if title is defined %}
+        <h1>{{ title }}</h1>
+        {% endif %}
+    {% endblock %}
+
 markdown_extensions:
   - markdown.extensions.extra
   - pymdownx.superfences
