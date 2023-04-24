@@ -14,7 +14,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.smartsymbols
-  - pymdownx.admonition
+  - admonition
+  - pymdownx.details
 
 extra_css:
   - custom_theme/css/custom.css
