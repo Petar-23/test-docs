@@ -6,8 +6,8 @@ theme:
   extra_favicon: assets/favicon.svg
   custom_dir: custom_theme
   palette:
-    primary: '0C101A'
-    accent: 'E64082'
+    primary: '#0C101A'
+    accent: '#E64082'
 
 markdown_extensions:
   - markdown.extensions.extra
@@ -50,10 +50,10 @@ nav:
       - 'Substrate Tutorial (Beginner)': for_developers/substrate_tutorial_beginner.md
       - 'Substrate Tutorial (Advanced)': for_developers/substrate_tutorial_advanced.md
   - For Holders:
-      - 'Coin Economics': for_investors/coin_economics.md
-      - 'Roadmap and Milestones': for_investors/roadmap_and_milestones.md
-      - 'Governance': for_investors/governance.md
-      - 'Partnerships and Ecosystem': for_investors/partnerships_and_ecosystem.md
+      - 'Coin Economics': for_holders/coin_economics.md
+      - 'Roadmap and Milestones': for_holders/roadmap_and_milestones.md
+      - 'Governance': for_holders/governance.md
+      - 'Partnerships and Ecosystem': for_holders/partnerships_and_ecosystem.md
   - Resources:
       - 'FAQ': resources/faq.md
       - 'Glossary': resources/glossary.md
