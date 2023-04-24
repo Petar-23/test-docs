@@ -3,11 +3,9 @@ site_name: SwapDEX Documentation
 theme:
   name: material
   logo: assets/swapdex-logo-icon.svg
-  extra_favicon: assets/favicon.svg
-  custom_dir: custom_theme
-  palette:
-    primary: '#0C101A'
-    accent: '#E64082'
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
 
 markdown_extensions:
   - markdown.extensions.extra
@@ -18,7 +16,7 @@ markdown_extensions:
   - pymdownx.details
 
 extra_css:
-  - custom_theme/css/custom.css
+  - stylesheets/custom.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
 
 extra_javascript:
