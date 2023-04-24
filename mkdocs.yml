@@ -24,8 +24,8 @@ extra_javascript:
 
 nav:
   - Introduction:
-      - 'Overview': introduction/overview.md
-      - 'Whitepaper': introduction/whitepaper.md
+      - 'Overview': /introduction/overview.md
+      - 'Whitepaper': /introduction/whitepaper.md
   - Getting Started:
       - 'Quick Start Guide': getting_started/quick_start_guide.md
       - 'NFT Market Guide': getting_started/nft_market_guide.md
@@ -53,9 +53,9 @@ nav:
       - 'Governance': for_holders/governance.md
       - 'Partnerships and Ecosystem': for_holders/partnerships_and_ecosystem.md
   - Resources:
-      - 'FAQ': resources/faq.md
-      - 'Glossary': resources/glossary.md
-      - 'Community': resources/community.md
+      - 'FAQ': /resources/faq.md
+      - 'Glossary': /resources/glossary.md
+      - 'Community': /resources/community.md
 
 plugins:
   - search
