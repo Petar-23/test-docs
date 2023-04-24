@@ -6,11 +6,80 @@ media_folder: "docs/assets"
 public_folder: "/assets"
 
 collections:
-  - name: "pages"
-    label: "Pages"
-    folder: "docs"
+  - name: "introduction"
+    label: "Introduction"
+    folder: "docs/introduction"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+  - name: "getting_started"
+    label: "Getting Started"
+    folder: "docs/getting_started"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+  - name: "blockchain_architecture"
+    label: "Blockchain Architecture"
+    folder: "docs/blockchain_architecture"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+  - name: "for_developers"
+    label: "For Developers"
+    folder: "docs/for_developers"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+  - name: "for_investors"
+    label: "For Investors"
+    folder: "docs/for_investors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+  - name: "resources"
+    label: "Resources"
+    folder: "docs/resources"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"

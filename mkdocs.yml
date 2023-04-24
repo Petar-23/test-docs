@@ -1,10 +1,64 @@
-site_name: My Docs
+site_name: SwapDEX Documentation
 
 theme:
   name: material
+  logo: assets/swapdex-logo-icon.svg
+  extra_favicon: assets/favicon.svg
+  custom_dir: 
+    - docs/css
+    - docs/partials
   palette:
-    primary: 'indigo'
-    accent: 'pink'
+    primary: '0C101A'
+    accent: 'E64082'
+
+markdown_extensions:
+  - markdown.extensions.extra
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.admonition
+
+extra_css:
+  - custom.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js
+
+nav:
+  - Introduction:
+      - 'Overview': introduction/overview.md
+      - 'Whitepaper': introduction/whitepaper.md
+  - Getting Started:
+      - 'Quick Start Guide': getting_started/quick_start_guide.md
+      - 'NFT Market Guide': getting_started/nft_market_guide.md
+      - 'Staking Guide': getting_started/staking_guide.md
+      - 'Validator Guide': getting_started/validator_guide.md
+      - 'Explorer Guide': getting_started/explorer_guide.md
+  - Blockchain Architecture:
+      - 'Substrate and EVM Integration': blockchain_architecture/substrate_and_evm.md
+      - 'Consensus Mechanism': blockchain_architecture/consensus_mechanism.md
+      - 'Network Architecture': blockchain_architecture/network_architecture.md
+      - 'Key Components': blockchain_architecture/key_components.md
+  - For Developers:
+      - 'Development Environment Setup': for_developers/dev_environment_setup.md
+      - 'Smart Contract Development on EVM': for_developers/smart_contract_development_evm.md
+      - 'Smart Contract Development on Substrate': for_developers/smart_contract_development_substrate.md
+      - 'Runtime Module Development': for_developers/runtime_module_development.md
+      - 'SwapDEX API': for_developers/sdx_api.md
+      - 'EVM Tutorial (Beginner)': for_developers/evm_tutorial_beginner.md
+      - 'EVM Tutorial (Advanced)': for_developers/evm_tutorial_advanced.md
+      - 'Substrate Tutorial (Beginner)': for_developers/substrate_tutorial_beginner.md
+      - 'Substrate Tutorial (Advanced)': for_developers/substrate_tutorial_advanced.md
+  - For Holders:
+      - 'Coin Economics': for_investors/coin_economics.md
+      - 'Roadmap and Milestones': for_investors/roadmap_and_milestones.md
+      - 'Governance': for_investors/governance.md
+      - 'Partnerships and Ecosystem': for_investors/partnerships_and_ecosystem.md
+  - Resources:
+      - 'FAQ': resources/faq.md
+      - 'Glossary': resources/glossary.md
+      - 'Community': resources/community.md
 
 plugins:
   - search
