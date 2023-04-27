@@ -14,6 +14,9 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - admonition
   - pymdownx.details
+  - toc:
+      permalink: true
+      toc_depth: 3
 
 extra_css:
   - stylesheets/custom.css
