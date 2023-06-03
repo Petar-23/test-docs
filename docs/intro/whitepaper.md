@@ -219,7 +219,7 @@ Our marketpalce operates with a unique fee structure designed to reward creators
 
 ### Referral system and incentives for marketers and influencers
 
-Another unique aspect of the SwapDEX NFT marketplace is our distinctive referral system for NFTs. This system has been designed to enhance the visibility and sales of NFTs while concurrently offering benefits to sellers, marketers, and buyers.
+Another unique aspect of the SwapDEX NFT marketplace is our distinctive referral system for NFTs. This system has been çdesigned to enhance the visibility and sales of NFTs while concurrently offering benefits to sellers, marketers, and buyers.
 
 When a seller lists an NFT for sale, they have the freedom to determine the percentage of the selling price they wish to share with potential marketers as a referral incentive. Each marketer can then register their wallet and decide how much of this incentive they want to forward to the buyer.
 
